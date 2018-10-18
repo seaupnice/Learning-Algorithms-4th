@@ -2,7 +2,19 @@
 
 ### Section 2.1 ###
 
-[TOC]
+# Contents
+- [2.1.1](#2.1.1)
+- [2.1.2](#2.1.2)
+- [2.1.3](#2.1.3)
+- [2.1.4](#2.1.4)
+- [2.1.5](#2.1.5)
+- [2.1.6](#2.1.6)
+- [2.1.7](#2.1.7)
+- [2.1.8](#2.1.8)
+- [2.1.9](#2.1.9)
+- [2.1.10](#2.1.10)
+
+
 
 #### 2.1.1
 Q: 按照算法2.1所示轨迹的格式给出选择排序是如何将数组`E A S Y Q U E S T I O N`排序的。
@@ -26,7 +38,7 @@ A:
 | 11 |11 |A E E I N O Q S S T U Y |
 |    |   |A E E I N O Q S S T U Y |
 
-code[ Test1_1.java ](https://github.com/younghz/Markdown "Markdown")
+code[ Test1_1.java ](https://github.com/seaupnice/Learning-Algorithms-4th/blob/master/Chapter2/src/main/com/seaupnice/Test1_1.java "Markdown")
 
 
 #### 2.1.2
@@ -64,7 +76,7 @@ A:
 | 11 |4 |A E E I N O Q S S T U Y |
 |    |  |A E E I N O Q S S T U Y |
 
-code[ Test1_4.java ](https://github.com/younghz/Markdown "Markdown")
+code[ Test1_4.java ](https://github.com/seaupnice/Learning-Algorithms-4th/blob/master/Chapter2/src/main/com/seaupnice/Test1_4.java "Markdown")
 
 
 #### 2.1.5
