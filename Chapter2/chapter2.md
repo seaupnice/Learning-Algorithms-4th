@@ -2,7 +2,7 @@
 
 ***
 
-## Section 2.1 ##
+## Section 2.1  初级排序算法##
 
 
 
@@ -17,6 +17,15 @@
 * [2-1-8](#2-1-8)
 * [2-1-9](#2-1-9)
 * [2-1-10](#2-1-10)
+* [2-1-11](#2-1-11)
+* [2-1-12](#2-1-12)
+* [2-1-13](#2-1-13)
+* [2-1-14](#2-1-14)
+* [2-1-15](#2-1-15)
+* [2-1-16](#2-1-16)
+* [2-1-17](#2-1-17)
+* [2-1-18](#2-1-18)
+* [2-1-19](#2-1-19)
 
 
 
@@ -191,7 +200,84 @@ A: 希尔排序高效的原因是它权衡了子数组的规模和有序性：�
 
 2-1-11
 ------
+Q: 将希尔排序中实时计算递增序列改为预先计算并存储在一个数组中。
 
+A: 了解希尔排序的递增序列。这里放出主函数。
+
+```java
+    public static void sort(Comparable[] a){
+        int N = a.length;
+
+        /*******************/
+        //求h数组
+        //h[]数组的个数  由h=3*h+1得
+        int num_n = (int)Math.ceil( Math.log(N) / Math.log(3) );
+        // +1防止越界
+        int[] h = new int[num_n+1];
+        h[0] = 1;
+        for(int i = 1; i < num_n; i++){
+            h[i] = h[i-1]*3 + 1;
+        }
+        /*******************/
+
+        for(int i = num_n-1; i >= 0; i--){
+            //将数组变为h[i]有序
+            for(int j = h[i]; j < N; j++){
+                //将a[j]插入a[j-h[i]], a[j-2*h[i]]......
+                for(int k = j; k >= h[i] && less(a[k], a[k-h[i]]); k-=h[i]){
+                    exch(a, k, k-h[i]);
+                }
+            }
+        }
+    }
+```
+
+code[ Test1_11.java ](https://github.com/seaupnice/Learning-Algorithms-4th/blob/master/Chapter2/src/main/com/seaupnice/Test1_11.java "Markdown")
+
+
+2-1-12
+------
+Q: 令希尔排序打印出递增序列的每个元素所带来的比较次数和数组大小的比值。编写一个测试用例对随机 Double 数组进行希尔排序，验证该值是一个小常数，数组大小按照 10 的幂次递增，不小于 100。
+
+A: 验证性实验，目的可能是向证明希尔排序**不同增量**思想的优秀吧(手动滑稽)。
+这里用到了java计数的技巧`Integer count = mp.get(h);` `mp.put(h, count == null ? 1 : count+1);`
+
+```java
+    public static void sort(Comparable[] a){
+        int N = a.length;
+        Map<Comparable, Integer> mp = new HashMap<>(100);
+        int h = 1;
+        while(h < N/3) h = 3*h + 1;
+        while(h >= 1){
+            for(int i = h; i < N; i++){
+                for(int j = i; j >= h && less(a[j], a[j-h]); j-=h) {
+                    /****************************/
+                    // the function is count number.
+                    Integer count = mp.get(h);
+                    mp.put(h, count == null ? 1 : count+1);
+                    /*****************************/
+                    Test1_12.exch(a, j, j - h);
+                }
+            }
+            h = h / 3;
+        }
+
+        assert Test1_12.isSorted(a);
+        ///show answer
+        for(Map.Entry<Comparable, Integer> entry : mp.entrySet()){
+            System.out.println("h =  "+entry.getKey()+ "      比值 =  " + entry.getValue()*1.0/N);
+        }
+    }
+```
+
+code[ Test1_12.java ](https://github.com/seaupnice/Learning-Algorithms-4th/blob/master/Chapter2/src/main/com/seaupnice/Test1_12.java "Markdown")
+
+
+2-1-13
+------
+Q:
+
+A:
 
 
 

@@ -5,21 +5,30 @@ import main.com.learn.StdIn;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
-public class Test1_9 {
+public class Test1_11 {
     public static void sort(Comparable[] a){
         int N = a.length;
-        int h = 1;
-        while(h < N/3) h = 3*h + 1;
-        show(a);
-        while(h >= 1){
-            for(int i = h, j; i < N; i++){
-                for(j = i; j >= h && less(a[j], a[j-h]); j-=h){
-                    exch(a, j, j-h);
+
+        /*******************/
+        //求h数组
+        //h[]数组的个数  由h=3*h+1得
+        int num_n = (int)Math.ceil( Math.log(N) / Math.log(3) );
+        // +1防止越界
+        int[] h = new int[num_n+1];
+        h[0] = 1;
+        for(int i = 1; i < num_n; i++){
+            h[i] = h[i-1]*3 + 1;
+        }
+        /*******************/
+
+        for(int i = num_n-1; i >= 0; i--){
+            //将数组变为h[i]有序
+            for(int j = h[i]; j < N; j++){
+                //将a[j]插入a[j-h[i]], a[j-2*h[i]]......
+                for(int k = j; k >= h[i] && less(a[k], a[k-h[i]]); k-=h[i]){
+                    exch(a, k, k-h[i]);
                 }
-                System.out.print("| "+ i + " |"+ j + " |"); show(a);
             }
-            h = h / 3;
-            show(a);
         }
     }
     private static boolean less(Comparable v, Comparable w){
@@ -51,8 +60,7 @@ public class Test1_9 {
         }
 
         String[] a = StdIn.readAllStrings();
-        sort(a);
-
+        Test1_11.sort(a);
         assert isSorted(a);
         show(a);
     }
