@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbf06aba-000d-48c9-bfc2-c153193f32eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/chapter2.md" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chapter2/main/com/in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chapter2/main/com/in.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/in.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,39 +18,42 @@
     <session id="-994516853">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.62" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.87" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="46" />
-          <entry key="txt" value="19" />
+          <entry key="java" value="53" />
+          <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="46" />
-          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="JAVA" value="53" />
+          <entry key="PLAIN_TEXT" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="11" />
-          <entry key="java" value="4383" />
+          <entry key="java" value="6072" />
           <entry key="txt" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4383" />
+          <entry key="JAVA" value="6072" />
           <entry key="PLAIN_TEXT" value="57" />
         </counts>
       </usages-collector>
@@ -56,11 +62,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/com/seaupnice/Test1_1.java">
+        <entry file="file://$PROJECT_DIR$/src/main/com/learn/MergeBU.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-288">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="266">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
+                <element signature="e#0#1705#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -97,10 +104,13 @@
         <option value="$PROJECT_DIR$/src/main/com/1_11.txt" />
         <option value="$PROJECT_DIR$/src/main/com/seaupnice/Test1_1.java" />
         <option value="$PROJECT_DIR$/src/main/com/seaupnice/Test1_11.java" />
-        <option value="$PROJECT_DIR$/src/main/com/in.txt" />
         <option value="$PROJECT_DIR$/src/main/com/1_12.txt" />
         <option value="$PROJECT_DIR$/src/main/com/seaupnice/Test1_12.java" />
         <option value="$PROJECT_DIR$/src/main/com/seaupnice/Test1_9.java" />
+        <option value="$PROJECT_DIR$/src/main/com/learn/Merge.java" />
+        <option value="$PROJECT_DIR$/src/main/com/seaupnice/Test2_1.java" />
+        <option value="$PROJECT_DIR$/src/main/com/in.txt" />
+        <option value="$PROJECT_DIR$/src/main/com/learn/MergeBU.java" />
       </list>
     </option>
   </component>
@@ -111,19 +121,19 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="190" />
-    <option name="y" value="88" />
+    <option name="x" value="36" />
+    <option name="y" value="7" />
     <option name="width" value="1430" />
     <option name="height" value="1040" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,16 +152,32 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Chapter2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chapter2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chapter2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chapter2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="seaupnice" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539958713716" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540133467144" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -180,9 +206,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test1_9">
-    <configuration name="Shell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.com.learn.Shell" />
+  <component name="RunManager" selected="Application.MergeBU">
+    <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.com.learn.Merge" />
       <module name="Chapter2" />
       <extension name="coverage">
         <pattern>
@@ -194,25 +220,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.com.learn.SortCompare" />
+    <configuration name="MergeBU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.com.learn.MergeBU" />
       <module name="Chapter2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.com.learn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test1_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.com.seaupnice.Test1_11" />
-      <module name="Chapter2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.com.seaupnice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,20 +259,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test2_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.com.seaupnice.Test2_1" />
+      <module name="Chapter2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.com.seaupnice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.SortCompare" />
-      <item itemvalue="Application.Shell" />
       <item itemvalue="Application.Test1_9" />
-      <item itemvalue="Application.Test1_11" />
       <item itemvalue="Application.Test1_12" />
+      <item itemvalue="Application.Test2_1" />
+      <item itemvalue="Application.Merge" />
+      <item itemvalue="Application.MergeBU" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeBU" />
+        <item itemvalue="Application.Test2_1" />
+        <item itemvalue="Application.Merge" />
         <item itemvalue="Application.Test1_9" />
         <item itemvalue="Application.Test1_12" />
-        <item itemvalue="Application.Test1_11" />
-        <item itemvalue="Application.Shell" />
-        <item itemvalue="Application.SortCompare" />
       </list>
     </recent_temporary>
   </component>
@@ -280,17 +306,20 @@
       <workItem from="1539874621364" duration="1172000" />
       <workItem from="1539876069393" duration="671000" />
       <workItem from="1539946312259" duration="10053000" />
+      <workItem from="1540050556944" duration="595000" />
+      <workItem from="1540125987842" duration="3147000" />
+      <workItem from="1540130645832" duration="3084000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26557000" />
+    <option name="totallyTimeSpent" value="33383000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="152" y="71" width="1144" height="832" extended-state="1" />
+    <frame x="29" y="6" width="1144" height="832" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27163905" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28268877" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -299,7 +328,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4990792" visible="true" weight="0.28064993" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4990792" visible="true" weight="0.28064993" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988183" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -325,6 +354,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/com/learn/StdOut.java">
@@ -372,13 +406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/learn/Selection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/1_4.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -407,10 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="201" selection-start-line="201" selection-end-line="201" />
-          <folding>
-            <element signature="e#21077#21078#0" expanded="true" />
-            <element signature="e#21151#21152#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -428,9 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="365" selection-start-line="365" selection-end-line="365" />
-          <folding>
-            <element signature="e#12756#12757#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -452,13 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/in.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -529,11 +542,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/learn/Selection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/seaupnice/Test1_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="684">
+          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
           <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/learn/Merge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-630">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#1827#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/in.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/seaupnice/Test2_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/learn/MergeBU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#1705#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
