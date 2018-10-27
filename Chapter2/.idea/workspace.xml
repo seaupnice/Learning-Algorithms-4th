@@ -18,63 +18,53 @@
     <session id="-994516853">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.35" value="1" />
-          <entry key="project.open.time.37" value="1" />
-          <entry key="project.open.time.40" value="1" />
-          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.35" value="2" />
+          <entry key="project.open.time.37" value="2" />
+          <entry key="project.open.time.40" value="2" />
+          <entry key="project.open.time.42" value="2" />
           <entry key="project.open.time.44" value="1" />
-          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.50" value="2" />
           <entry key="project.open.time.53" value="1" />
-          <entry key="project.open.time.62" value="1" />
+          <entry key="project.open.time.61" value="2" />
+          <entry key="project.open.time.62" value="2" />
+          <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.87" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="54" />
-          <entry key="txt" value="21" />
+          <entry key="java" value="75" />
+          <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="54" />
-          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="JAVA" value="75" />
+          <entry key="PLAIN_TEXT" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="11" />
-          <entry key="java" value="6072" />
-          <entry key="txt" value="46" />
+          <entry key="dummy" value="12" />
+          <entry key="java" value="9680" />
+          <entry key="txt" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6072" />
-          <entry key="PLAIN_TEXT" value="57" />
+          <entry key="JAVA" value="9680" />
+          <entry key="PLAIN_TEXT" value="61" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/com/learn/MergeBU.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#0#1705#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -107,10 +97,16 @@
         <option value="$PROJECT_DIR$/src/main/com/1_12.txt" />
         <option value="$PROJECT_DIR$/src/main/com/seaupnice/Test1_12.java" />
         <option value="$PROJECT_DIR$/src/main/com/seaupnice/Test1_9.java" />
-        <option value="$PROJECT_DIR$/src/main/com/learn/Merge.java" />
         <option value="$PROJECT_DIR$/src/main/com/seaupnice/Test2_1.java" />
-        <option value="$PROJECT_DIR$/src/main/com/in.txt" />
+        <option value="$PROJECT_DIR$/src/main/com/learn/Draw.java" />
+        <option value="$PROJECT_DIR$/src/main/com/learn/StdDraw.java" />
+        <option value="$PROJECT_DIR$/src/main/com/learn/DrawListener.java" />
+        <option value="$PROJECT_DIR$/src/main/com/seaupnice/Test2_6.java" />
         <option value="$PROJECT_DIR$/src/main/com/learn/MergeBU.java" />
+        <option value="$PROJECT_DIR$/src/main/com/in.txt" />
+        <option value="$PROJECT_DIR$/src/main/com/learn/Sort2distinct.java" />
+        <option value="$PROJECT_DIR$/src/main/com/learn/Merge.java" />
+        <option value="$PROJECT_DIR$/src/main/com/learn/MergeX.java" />
       </list>
     </option>
   </component>
@@ -120,9 +116,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="36" />
-    <option name="y" value="7" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="431" />
+    <option name="y" value="10" />
     <option name="width" value="1430" />
     <option name="height" value="1040" />
   </component>
@@ -134,6 +130,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,26 +157,17 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Chapter2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chapter2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="seaupnice" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540134746913" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540655190081" />
+    <property name="last_opened_file_path" value="G:/IdeaProjects/Algorihm/Test/.idea" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -187,11 +176,11 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\Algorithm4\Chapter2\src\main\com" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\Algorithm4\Chapter2\src\main\com\learn" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Algorithm4\Chapter2\src\main\com" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -206,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeBU">
+  <component name="RunManager" selected="Application.MergeX">
     <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.com.learn.Merge" />
       <module name="Chapter2" />
@@ -233,12 +222,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1_12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.com.seaupnice.Test1_12" />
+    <configuration name="MergeX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.com.learn.MergeX" />
       <module name="Chapter2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.com.seaupnice.*" />
+          <option name="PATTERN" value="main.com.learn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,12 +235,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1_9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.com.seaupnice.Test1_9" />
+    <configuration name="Sort2distinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.com.learn.Sort2distinct" />
       <module name="Chapter2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.com.seaupnice.*" />
+          <option name="PATTERN" value="main.com.learn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,8 +248,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.com.seaupnice.Test2_1" />
+    <configuration name="Test2_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.com.seaupnice.Test2_6" />
       <module name="Chapter2" />
       <extension name="coverage">
         <pattern>
@@ -273,19 +262,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test1_9" />
-      <item itemvalue="Application.Test1_12" />
-      <item itemvalue="Application.Test2_1" />
       <item itemvalue="Application.Merge" />
       <item itemvalue="Application.MergeBU" />
+      <item itemvalue="Application.Test2_6" />
+      <item itemvalue="Application.MergeX" />
+      <item itemvalue="Application.Sort2distinct" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeBU" />
-        <item itemvalue="Application.Test2_1" />
+        <item itemvalue="Application.MergeX" />
+        <item itemvalue="Application.Sort2distinct" />
         <item itemvalue="Application.Merge" />
-        <item itemvalue="Application.Test1_9" />
-        <item itemvalue="Application.Test1_12" />
+        <item itemvalue="Application.Test2_6" />
+        <item itemvalue="Application.MergeBU" />
       </list>
     </recent_temporary>
   </component>
@@ -308,18 +297,28 @@
       <workItem from="1539946312259" duration="10053000" />
       <workItem from="1540050556944" duration="595000" />
       <workItem from="1540125987842" duration="3147000" />
-      <workItem from="1540130645832" duration="3404000" />
+      <workItem from="1540130645832" duration="4001000" />
+      <workItem from="1540183014936" duration="558000" />
+      <workItem from="1540183772660" duration="390000" />
+      <workItem from="1540216454062" duration="6370000" />
+      <workItem from="1540308064757" duration="645000" />
+      <workItem from="1540377276850" duration="59000" />
+      <workItem from="1540391765363" duration="3914000" />
+      <workItem from="1540442831823" duration="923000" />
+      <workItem from="1540463520166" duration="2534000" />
+      <workItem from="1540475919743" duration="3564000" />
+      <workItem from="1540529189068" duration="2698000" />
+      <workItem from="1540653952785" duration="1450000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33703000" />
+    <option name="totallyTimeSpent" value="57405000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="29" y="6" width="1144" height="832" extended-state="1" />
-    <editor active="true" />
+    <frame x="345" y="8" width="1144" height="832" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28268877" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24769798" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -328,8 +327,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4990792" visible="true" weight="0.28064993" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988183" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4990792" weight="0.2703102" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26518518" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -365,34 +364,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#3364#3365#0" expanded="true" />
-            <element signature="e#3391#3392#0" expanded="true" />
-            <element signature="e#3517#3518#0" expanded="true" />
-            <element signature="e#3546#3547#0" expanded="true" />
-            <element signature="e#3725#3726#0" expanded="true" />
-            <element signature="e#3755#3756#0" expanded="true" />
-            <element signature="e#3933#3934#0" expanded="true" />
-            <element signature="e#3963#3964#0" expanded="true" />
-            <element signature="e#4142#4143#0" expanded="true" />
-            <element signature="e#4172#4173#0" expanded="true" />
-            <element signature="e#4347#4348#0" expanded="true" />
-            <element signature="e#4377#4378#0" expanded="true" />
-            <element signature="e#4554#4555#0" expanded="true" />
-            <element signature="e#4584#4585#0" expanded="true" />
-            <element signature="e#4759#4760#0" expanded="true" />
-            <element signature="e#4789#4790#0" expanded="true" />
-            <element signature="e#4958#4959#0" expanded="true" />
-            <element signature="e#4988#4989#0" expanded="true" />
-            <element signature="e#5168#5169#0" expanded="true" />
-            <element signature="e#5198#5199#0" expanded="true" />
-            <element signature="e#5433#5434#0" expanded="true" />
-            <element signature="e#5463#5464#0" expanded="true" />
-            <element signature="e#5545#5546#0" expanded="true" />
-            <element signature="e#5572#5573#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -420,16 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/learn/StdIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="364" selection-start-line="364" selection-end-line="364" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://F:/Java/jdk9/lib/src.zip!/java.base/java/util/Random.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -441,9 +402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="116" selection-start-line="116" selection-end-line="116" />
-          <folding>
-            <element signature="e#3822#3823#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -479,9 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -492,23 +447,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/seaupnice/Test1_9.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/seaupnice/Test1_4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-456">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -516,23 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/learn/Insertion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/learn/Selection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -540,27 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
           <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/learn/Merge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#1827#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/in.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -578,19 +482,105 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="65" column="32" lean-forward="true" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/learn/DrawListener.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/learn/Draw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="1156" selection-start-line="1156" selection-end-line="1156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/seaupnice/Test1_9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/learn/StdDraw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="483" lean-forward="true" selection-start-line="483" selection-end-line="483" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/seaupnice/Test2_6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/learn/StdIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="525" selection-start-line="525" selection-end-line="525" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/learn/MergeBU.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="-429">
+          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/in.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="58" selection-start-column="58" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/learn/Selection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/learn/Sort2distinct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
           <folding>
-            <element signature="e#0#1705#0" expanded="true" />
             <element signature="imports" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/learn/Insertion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/learn/Merge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#visitarray#0;class#Merge#0" />
+            <element signature="method#show#0;class#Merge#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/learn/MergeX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="method#show#0;class#MergeX#0" />
           </folding>
         </state>
       </provider>
